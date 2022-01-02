@@ -25,7 +25,7 @@ let cart = []
 
 let list = document.querySelector('#items')
 
-items.forEach((item, i)=>{ //buce muestra los elementos deln array items en pantalla
+items.forEach((item, i)=>{ //bucle muestra los elementos del array items en pantalla
     console.log(item.name)
     console.log(i)
     list.innerHTML += `<li>
